@@ -4,9 +4,6 @@ zip-batch-extractor
 Powershell
 Get-ChildItem *.zip | ForEach-Object { Expand-Archive -Path $_.FullName -DestinationPath ($_.BaseName) -Force }
 
-CMD command
-powershell -command "Get-ChildItem *.zip | ForEach-Object { Expand-Archive -Path $_.FullName -DestinationPath ($_.BaseName) -Force }"
-
 
 
 If your folder has
